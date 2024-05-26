@@ -115,5 +115,5 @@ with gr.Blocks(css="""
     with gr.Row():
         gr.Markdown("<p style='text-align: center;'>챗봇에게 원하는 음식 종류나 끼니를 입력하면 추천해 드립니다!</p>")
 
-demo.launch()
+demo.launch(share=True)
   
